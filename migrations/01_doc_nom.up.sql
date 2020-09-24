@@ -1,0 +1,4 @@
+CREATE TABLE doc_nom (
+    nom_id UUID NOT NULL PRIMARY KEY,
+    nom_name VARCHAR(50) NOT NULL UNIQUE
+);
